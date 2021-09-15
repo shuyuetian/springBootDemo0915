@@ -16,5 +16,7 @@ public interface UserService {
     public void deleteUser(Long id);
     //修改
     public void updateUser(Long id,User user);
+    //在git上添加，用于测试pull
+    public void findUserByName(String userName);
 
 }
